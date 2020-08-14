@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/*font-family: 'Righteous', Arial, sans-serif;*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: auto;
+
+}
+
+li {
+    margin: auto;
+    padding: 10px 0;
+}
+
+a {
+    color: #fff;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+#head {
+    background-color: #fff;
+    display: flex;
+    border: 2px outset #000;
+}
+
+#header-img {
+    display: none;
+}
+
+#head-img {
+    width: 100px;
+    margin-top: 30px;
+    flex: left;
+}
+
+h1 {
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Righteous', Arial, sans-serif;
+    font-size: 50pt;
+}
+
+main {
+    text-align: center;
+}
+
+#quality {
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+h2 {
+    color: #fff;
+    padding-top: 20px;
+}
+
+#finance {
+    width: 75%;
+    border: 4px solid #fff;
+    max-width: 700px;
+}
+
+#email {
+    text-align: center;
+    color: #000;
+    width: 300px;
+    padding: 5px 0;
+    margin: 20px;
+    background-color: #fff;
+}
+
+#submit {
+    padding: 5px 20px;
+    background-color: #7ebaff;
+    color: #000;
+    border: 3px outset #6392c7;
+    font-size: 12pt;
+}
+
+.img3 {
+    width: 30%;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#organized #happy #healthy{
+    width: 30%;
+    margin: auto;
+}
+
+h3 {
+    margin: 50px auto;
+}
+
+#video {
+    border: 1px solid #000;
+}
+
+#footer {
+    text-align: center;
+    font-size: small;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    #header-img {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    #plan {
+        display: none;
+    }
+
+}
